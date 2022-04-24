@@ -13,6 +13,7 @@ class _LoginPageState extends State<LoginPage> {
     double w = MediaQuery.of(context).size.width;
     double h = MediaQuery.of(context).size.height;
     return Scaffold(
+      resizeToAvoidBottomInset: false,
       backgroundColor: Colors.white,
       body: Column(children: [
         Container(
@@ -37,6 +38,10 @@ class _LoginPageState extends State<LoginPage> {
             ),
             SizedBox(
               height: 40,
+            ),
+            Text(
+              "  Email",
+              style: TextStyle(fontSize: 20, color: Colors.black),
             ),
             Container(
               decoration: BoxDecoration(
@@ -66,6 +71,10 @@ class _LoginPageState extends State<LoginPage> {
             const SizedBox(
               height: 20,
             ),
+            Text(
+              "  Password",
+              style: TextStyle(fontSize: 20, color: Colors.black),
+            ),
             Container(
               decoration: BoxDecoration(
                   color: Colors.white,
@@ -92,7 +101,7 @@ class _LoginPageState extends State<LoginPage> {
               ),
             ),
             SizedBox(
-              height: 20,
+              height: 10,
             ),
             Row(children: [
               Expanded(
@@ -109,8 +118,8 @@ class _LoginPageState extends State<LoginPage> {
           height: 50,
         ),
         Container(
-          width: w * 0.5,
-          height: h * 0.08,
+          width: w * 0.4,
+          height: h * 0.07,
           decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(30),
               image: DecorationImage(
@@ -119,7 +128,7 @@ class _LoginPageState extends State<LoginPage> {
             child: Text(
               "Sign in",
               style: TextStyle(
-                  fontSize: 36,
+                  fontSize: 25,
                   fontWeight: FontWeight.bold,
                   color: Colors.white),
             ),
