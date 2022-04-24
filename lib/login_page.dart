@@ -29,14 +29,14 @@ class _LoginPageState extends State<LoginPage> {
               Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
             Text(
               "Hello",
-              style: TextStyle(fontSize: 70, fontWeight: FontWeight.bold),
+              style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
             ),
             Text(
               "Sign into your account",
               style: TextStyle(fontSize: 20, color: Colors.grey[500]),
             ),
             SizedBox(
-              height: 50,
+              height: 40,
             ),
             Container(
               decoration: BoxDecoration(
@@ -54,16 +54,16 @@ class _LoginPageState extends State<LoginPage> {
                     focusedBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(30),
                         borderSide:
-                            BorderSide(color: Colors.white, width: 1.0)),
+                            const BorderSide(color: Colors.white, width: 1.0)),
                     enabledBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(30),
                         borderSide:
-                            BorderSide(color: Colors.white, width: 1.0)),
+                            const BorderSide(color: Colors.white, width: 1.0)),
                     border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(30))),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 20,
             ),
             Container(
@@ -74,7 +74,7 @@ class _LoginPageState extends State<LoginPage> {
                     BoxShadow(
                         blurRadius: 10,
                         spreadRadius: 7,
-                        offset: Offset(1, 1),
+                        offset: const Offset(1, 1),
                         color: Colors.grey.withOpacity(0.2))
                   ]),
               child: TextField(
