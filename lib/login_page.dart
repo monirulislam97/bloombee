@@ -39,10 +39,6 @@ class _LoginPageState extends State<LoginPage> {
             SizedBox(
               height: 40,
             ),
-            Text(
-              "  Email",
-              style: TextStyle(fontSize: 20, color: Colors.black),
-            ),
             Container(
               decoration: BoxDecoration(
                   color: Colors.white,
@@ -56,6 +52,8 @@ class _LoginPageState extends State<LoginPage> {
                   ]),
               child: TextField(
                 decoration: InputDecoration(
+                    hintText: 'Enter your email',
+                    labelText: 'Email',
                     focusedBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(30),
                         borderSide:
@@ -69,11 +67,7 @@ class _LoginPageState extends State<LoginPage> {
               ),
             ),
             const SizedBox(
-              height: 20,
-            ),
-            Text(
-              "  Password",
-              style: TextStyle(fontSize: 20, color: Colors.black),
+              height: 30,
             ),
             Container(
               decoration: BoxDecoration(
@@ -88,6 +82,8 @@ class _LoginPageState extends State<LoginPage> {
                   ]),
               child: TextField(
                 decoration: InputDecoration(
+                    hintText: 'Enter your password',
+                    labelText: 'Password',
                     focusedBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(30),
                         borderSide:
@@ -101,7 +97,7 @@ class _LoginPageState extends State<LoginPage> {
               ),
             ),
             SizedBox(
-              height: 10,
+              height: 20,
             ),
             Row(children: [
               Expanded(
@@ -135,7 +131,7 @@ class _LoginPageState extends State<LoginPage> {
           ),
         ),
         SizedBox(
-          height: w * 0.1,
+          height: w * 0.2,
         ),
         RichText(
             text: TextSpan(
