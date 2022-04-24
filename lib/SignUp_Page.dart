@@ -221,7 +221,7 @@ class SignUpPage extends StatelessWidget {
                 height: h * 0.08,
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(30),
-                    image: DecorationImage(
+                    image: const DecorationImage(
                         image: AssetImage("img/d.png"), fit: BoxFit.cover)),
                 child: Center(
                   child: Text("Continue",
