@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "bloombee" "\0"
+            VALUE "FileDescription", "register" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "bloombee" "\0"
+            VALUE "InternalName", "register" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2022 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "bloombee.exe" "\0"
-            VALUE "ProductName", "bloombee" "\0"
+            VALUE "OriginalFilename", "register.exe" "\0"
+            VALUE "ProductName", "register" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

@@ -53,17 +53,9 @@ class SignUpPage extends StatelessWidget {
                 ],
               ),
             ),
-
             SizedBox(
               height: 10,
             ),
-            // Container(
-            //   width: w,
-            //   height: h * 0.3,
-            //   decoration: BoxDecoration(
-            //       image: DecorationImage(
-            //           image: AssetImage("img/skay.jpg"), fit: BoxFit.cover)),
-            // ),
             Container(
                 margin: EdgeInsets.only(left: 20, right: 20),
                 width: w,
@@ -80,13 +72,7 @@ class SignUpPage extends StatelessWidget {
                     SizedBox(
                       height: 5,
                     ),
-                    // Text(
-                    //   "Email",
-                    //   style: TextStyle(
-                    //       fontWeight: FontWeight.bold,
-                    //       fontSize: 20,
-                    //       color: Color.fromARGB(255, 255, 75, 75)),
-                    // ),
+
                     SizedBox(
                       height: 20,
                     ),
@@ -146,76 +132,11 @@ class SignUpPage extends StatelessWidget {
                     SizedBox(
                       height: 20,
                     ),
-
-                    // Container(
-                    //     decoration: BoxDecoration(
-                    //         color: Color.fromARGB(255, 255, 252, 252),
-                    //         borderRadius: BorderRadius.circular(30),
-                    //         boxShadow: [
-                    //           BoxShadow(
-                    //               blurRadius: 10,
-                    //               spreadRadius: 7,
-                    //               offset: Offset(1, 1),
-                    //               color: Color.fromARGB(255, 7, 3, 223)
-                    //                   .withOpacity(0.2))
-                    //         ]),
-                    //     child: TextField(
-                    //       decoration: InputDecoration(
-                    //           focusedBorder: OutlineInputBorder(
-                    //               borderRadius: BorderRadius.circular(30),
-                    //               borderSide: BorderSide(
-                    //                   color: Color.fromARGB(255, 255, 254, 254),
-                    //                   width: 2.0)),
-                    //           border: OutlineInputBorder(
-                    //               borderRadius: BorderRadius.circular(30))),
-                    //     )),
-                    // SizedBox(
-                    //   height: 20,
-                    // ),
-                    // Container(
-                    //     decoration: BoxDecoration(
-                    //         color: Color.fromARGB(255, 255, 252, 252),
-                    //         borderRadius: BorderRadius.circular(30),
-                    //         boxShadow: [
-                    //           BoxShadow(
-                    //               blurRadius: 10,
-                    //               spreadRadius: 7,
-                    //               offset: Offset(1, 1),
-                    //               color: Color.fromARGB(255, 7, 3, 223)
-                    //                   .withOpacity(0.2))
-                    //         ]),
-                    //     child: TextField(
-                    //       decoration: InputDecoration(
-                    //           focusedBorder: OutlineInputBorder(
-                    //               borderRadius: BorderRadius.circular(30),
-                    //               borderSide: BorderSide(
-                    //                   color: Color.fromARGB(255, 255, 254, 254),
-                    //                   width: 2.0)),
-                    //           border: OutlineInputBorder(
-                    //               borderRadius: BorderRadius.circular(30))),
-                    //     )),
-                    // SizedBox(
-                    //   height: 20,
-                    // ),
-                    //  Row(
-                    //   children: [
-                    //     Expanded(
-                    //       child: Container(),
-                    //     ),
-                    //     Text(
-                    //       "Forgot your Password?",
-                    //       style: TextStyle(
-                    //           fontSize: 20,
-                    //           color: Color.fromARGB(255, 78, 8, 255)),
-                    //     )
-                    //   ],
-                    // ),
                   ],
                 )),
             SizedBox(
               height: 20,
             ),
-
             Container(
                 width: w * 0.8,
                 height: h * 0.08,

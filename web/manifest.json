@@ -1,6 +1,6 @@
 {
-    "name": "bloombee",
-    "short_name": "bloombee",
+    "name": "register",
+    "short_name": "register",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
